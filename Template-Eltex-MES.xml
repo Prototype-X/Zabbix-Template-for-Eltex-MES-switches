@@ -666,7 +666,7 @@
                         <conditions>
                             <condition>
                                 <macro>{#SNMPVALUE}</macro>
-                                <value>^(te|gi)1\/0\/[1-48]{1,2}$|^oob$</value>
+                                <value>^(te|gi|fa)1\/0\/[1-48]{1,2}$|^oob$</value>
                                 <operator>8</operator>
                                 <formulaid>A</formulaid>
                             </condition>
